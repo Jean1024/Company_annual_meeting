@@ -1,0 +1,445 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  color: #fff;
+  font-family: '微软雅黑';
+  height: 100%;
+  overflow: hidden;
+  background: url('../imgs/bg.png') no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#mp3 {
+  display: none;
+}
+.swiper-container {
+  height: 100%;
+  overflow: hidden;
+}
+.swiper-container .music {
+  width: 10%;
+  height: 10%;
+  position: absolute;
+  top: 0.6rem;
+  right: 0.6rem;
+  z-index: 200;
+}
+.swiper-container .music img {
+  width: 100%;
+}
+.swiper-container .swiper-slide {
+  overflow: hidden;
+}
+.swiper-container .swiper1 .content {
+  height: 100%;
+  background: url('../imgs/1/home_bro.png') no-repeat center;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.swiper-container .swiper1 .content .tit {
+  position: absolute;
+  right: 0rem;
+  top: 12rem;
+  height: 6.133333rem;
+  width: 13.066667rem;
+  background: url('../imgs/1/wenzi.png') no-repeat center;
+  -moz-background-size: contain;
+  -webkit-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  animation: wordDown 1s ease;
+}
+.swiper-container .swiper4 .content {
+  height: 100%;
+}
+.swiper-container .swiper4 .content .tit {
+  margin-top: 1.786667rem;
+  height: 1.6rem;
+  background: url('../imgs/4/tit.png') no-repeat center;
+  -moz-background-size: contain;
+  -webkit-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+}
+.swiper-container .swiper4 .content .num {
+  height: 4.0rem;
+  margin-top: 0.8rem;
+  background: url('../imgs/4/sz.png') no-repeat center;
+  -moz-background-size: contain;
+  -webkit-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+}
+.swiper-container .swiper4 .content .map {
+  position: absolute;
+  top: 12.186667rem;
+  left: 0;
+  width: 100%;
+  height: 14.933333rem;
+  background-repeat: no-repeat;
+  background-position: center center;
+  -moz-background-size: contain;
+  -webkit-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+}
+.swiper-container .swiper4 .content .baseLayer {
+  background-image: url('../imgs/4/5map.png');
+  z-index: 5;
+  animation: mapChange 4s linear;
+}
+.swiper-container .swiper4 .content .layers1 {
+  background-image: url('../imgs/4/kp.png');
+  z-index: 6;
+}
+.swiper-container .swiper4 .content .layers2 {
+  background-image: url('../imgs/4/wy.png');
+  z-index: 7;
+  animation-delay: 0.4s;
+}
+.swiper-container .swiper4 .content .layers3 {
+  background-image: url('../imgs/4/app.png');
+  z-index: 8;
+  animation-delay: 0.8s;
+}
+.swiper-container .swiper4 .content .layers4 {
+  background-image: url('../imgs/4/wx.png');
+  z-index: 9;
+  animation-delay: 1.2s;
+}
+.swiper-container .swiper4 .content .layers5 {
+  background-image: url('../imgs/4/fyjp.png');
+  z-index: 10;
+  animation-delay: 1.6s;
+}
+.swiper-container .swiper5 .content {
+  height: 100%;
+}
+.swiper-container .swiper5 .content .tit {
+  margin-top: 1.786667rem;
+  height: 1.6rem;
+  background: url('../imgs/5/tit.png') no-repeat center;
+  -moz-background-size: contain;
+  -webkit-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+}
+.swiper-container .swiper5 .content .num {
+  height: 4.0rem;
+  margin-top: 0.8rem;
+  background: url('../imgs/5/数字.png') no-repeat center;
+  -moz-background-size: contain;
+  -webkit-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+}
+.swiper-container .swiper5 .content .data {
+  margin-top: 5.866667rem;
+  height: 14rem;
+  background: url('../imgs/5/数据.png') no-repeat center;
+  -moz-background-size: contain;
+  -webkit-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+}
+.swiper-container .swiper5 .content .pic {
+  height: 9.4rem;
+  margin-top: -14rem;
+  background: url('../imgs/5/图形.png') no-repeat 5.6rem 1.4rem;
+  -moz-background-size: 8rem 8rem;
+  -webkit-background-size: 8rem 8rem;
+  -o-background-size: 8rem 8rem;
+  background-size: 8rem 8rem;
+  animation: rotating1 1s linear;
+  transform-origin: 9.6rem 5.4rem;
+}
+.swiper-container .swiper6 .content {
+  height: 100%;
+}
+.swiper-container .swiper6 .content .tit {
+  margin-top: 1.786667rem;
+  height: 1.6rem;
+  background: url('../imgs/6/tit.png') no-repeat center;
+  -moz-background-size: contain;
+  -webkit-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+}
+.swiper-container .swiper6 .content .num {
+  height: 4.0rem;
+  margin-top: 0.8rem;
+  background: url('../imgs/6/文字.png') no-repeat center;
+  -moz-background-size: contain;
+  -webkit-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+}
+.swiper-container .swiper6 .content .data {
+  height: 14.133333rem;
+  width: 18rem;
+  margin: 5rem auto;
+  background: url('../imgs/6/tubiao_bro.png') no-repeat center;
+  -moz-background-size: contain;
+  -webkit-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  box-sizing: border-box;
+  position: relative;
+  padding-left: 1.333333rem;
+}
+.swiper-container .swiper6 .content .data .rate {
+  position: absolute;
+  top: 3.4rem;
+  right: 5.6rem;
+  width: 4.0rem;
+  height: 1.173333rem;
+  color: #bf8b54;
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-style: italic;
+}
+.swiper-container .swiper6 .content .data .money {
+  width: 100%;
+  height: 3rem;
+  width: 13.2rem;
+  font-size: 2rem;
+  font-style: italic;
+  font-weight: 700;
+  background-image: -webkit-gradient(linear, 0 0, 0 bottom, from(#e5ba77), to(#bf8b54));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: absolute;
+  top: -1.2rem;
+  right: 0rem;
+}
+.swiper-container .swiper6 .content .data .money::before {
+  content: '¥6269480.99';
+  animation: money 1s linear;
+}
+.swiper-container .swiper6 .content .data .item {
+  height: 12.8rem;
+  width: 4.2rem;
+  margin-right: 1.12rem;
+  float: left;
+  position: relative;
+}
+.swiper-container .swiper6 .content .data .item::before {
+  position: absolute;
+  width: 100%;
+  height: 1.066667rem;
+  font-size: 1.5rem;
+  text-align: center;
+  bottom: -1.4rem;
+  right: 0;
+  color: #bf8b54;
+  font-weight: 700;
+  animation: flipInX 1.5s linear;
+}
+.swiper-container .swiper6 .content .data .item2015 {
+  background: url('../imgs/6/2015.png') no-repeat center bottom;
+  -moz-background-size: contain;
+  -webkit-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  animation: year2015 0.5s linear;
+}
+.swiper-container .swiper6 .content .data .item2016 {
+  background: url('../imgs/6/2016.png') no-repeat center bottom;
+  -moz-background-size: contain;
+  -webkit-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  animation: year2016 0.8s linear;
+}
+.swiper-container .swiper6 .content .data .item2017 {
+  background: url('../imgs/6/2017.png') no-repeat center bottom;
+  -moz-background-size: contain;
+  -webkit-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  animation: year2017 1.0s linear;
+}
+.swiper-container .swiper6 .content .data .item2015::before {
+  content: '2015';
+}
+.swiper-container .swiper6 .content .data .item2016::before {
+  content: '2016';
+}
+.swiper-container .swiper6 .content .data .item2017::before {
+  content: '2017';
+}
+@keyframes money {
+  0% {
+    content: '¥0000000.00';
+  }
+  10% {
+    content: '¥1111110.11';
+  }
+  20% {
+    content: '¥2222220.22';
+  }
+  30% {
+    content: '¥3233330.33';
+  }
+  40% {
+    content: '¥4244440.44';
+  }
+  50% {
+    content: '¥5255450.55';
+  }
+  60% {
+    content: '¥6266460.66';
+  }
+  70% {
+    content: '¥6267470.77';
+  }
+  80% {
+    content: '¥6268480.88';
+  }
+  90% {
+    content: '¥6269480.99';
+  }
+  100% {
+    content: '¥6269480.99';
+  }
+}
+@keyframes wordDown {
+  0% {
+    top: 8rem;
+    opacity: 0;
+  }
+  100% {
+    top: 12rem;
+    opacity: 1;
+  }
+}
+@keyframes mapChange {
+  0% {
+    background-image: url('../imgs/4/map_kp.png');
+  }
+  20% {
+    background-image: url('../imgs/4/2map_wy.png');
+  }
+  30% {
+    background-image: url('../imgs/4/3map_app.png');
+  }
+  40% {
+    background-image: url('../imgs/4/4map_weixin.png');
+  }
+  50% {
+    background-image: url('../imgs/4/5map.png');
+  }
+}
+@keyframes year2015 {
+  0% {
+    -moz-background-size: 4.2rem 0rem;
+    -webkit-background-size: 4.2rem 0rem;
+    -o-background-size: 4.2rem 0rem;
+    background-size: 4.2rem 0rem;
+  }
+  50% {
+    -moz-background-size: 4.2rem 2rem;
+    -webkit-background-size: 4.2rem 2rem;
+    -o-background-size: 4.2rem 2rem;
+    background-size: 4.2rem 2rem;
+  }
+  100% {
+    -moz-background-size: 4.2rem 4rem;
+    -webkit-background-size: 4.2rem 4rem;
+    -o-background-size: 4.2rem 4rem;
+    background-size: 4.2rem 4rem;
+  }
+}
+@keyframes year2016 {
+  0% {
+    -moz-background-size: 4.2rem 0rem;
+    -webkit-background-size: 4.2rem 0rem;
+    -o-background-size: 4.2rem 0rem;
+    background-size: 4.2rem 0rem;
+  }
+  50% {
+    -moz-background-size: 4.2rem 3rem;
+    -webkit-background-size: 4.2rem 3rem;
+    -o-background-size: 4.2rem 3rem;
+    background-size: 4.2rem 3rem;
+  }
+  100% {
+    -moz-background-size: 4.2rem 5.6rem;
+    -webkit-background-size: 4.2rem 5.6rem;
+    -o-background-size: 4.2rem 5.6rem;
+    background-size: 4.2rem 5.6rem;
+  }
+}
+@keyframes year2017 {
+  0% {
+    -moz-background-size: 4.2rem 0rem;
+    -webkit-background-size: 4.2rem 0rem;
+    -o-background-size: 4.2rem 0rem;
+    background-size: 4.2rem 0rem;
+  }
+  50% {
+    -moz-background-size: 4.2rem 6rem;
+    -webkit-background-size: 4.2rem 6rem;
+    -o-background-size: 4.2rem 6rem;
+    background-size: 4.2rem 6rem;
+  }
+  100% {
+    -moz-background-size: 4.2rem 11.6rem;
+    -webkit-background-size: 4.2rem 11.6rem;
+    -o-background-size: 4.2rem 11.6rem;
+    background-size: 4.2rem 11.6rem;
+  }
+}
+@keyframes rotating1 {
+  0% {
+    transform: rotate(0deg);
+    opacity: 0;
+  }
+  100% {
+    transform: rotate(1turn);
+    opacity: 1;
+  }
+}
+@keyframes rotating {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(1turn);
+  }
+}
+@keyframes rotating1 {
+  0% {
+    transform: rotate(0deg);
+    opacity: 0;
+  }
+  100% {
+    transform: rotate(1turn);
+    opacity: 1;
+  }
+}
+.animateRotating60 {
+  -webkit-animation: rotating 60s linear infinite;
+}
+.animateRotating {
+  -webkit-animation: rotating 5s linear infinite;
+}
+.swiper-container .swiper-pagination-bullet {
+  background: #000000;
+  opacity: 0.6;
+}
+.swiper-container .swiper-pagination-bullet-active {
+  background: #ffffff;
+  opacity: 1;
+}
+.swiper-pagination.swiper-pagination-bullets {
+  top: 21rem!important;
+}

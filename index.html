@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>华风创新</title>
+    <link rel="stylesheet" href="lib/animate.min.css">
+    <link rel="stylesheet" href="lib/swiper-3.4.2.min.css">
+    <link rel="stylesheet" href="css/index.css?912">
+    <script>
+    ! function(win, doc) {
+        var d = doc.documentElement;
+        function change() {
+            var fz = d.clientWidth / 20
+            // fz = fz > 30 ? 30 : fz;
+            d.style.fontSize = fz + 'px';
+        }
+        win.addEventListener('resize', change, false);
+        change();
+    }(window, document);
+    </script>
+</head>
+
+<body>
+    <div class="swiper-container container1">
+        <div class="music"><img src="imgs/音乐.png" class="animateRotating" alt=""></div>
+        <div class="swiper-wrapper">
+            <div class="swiper-slide swiper1">
+                <div class="content once">
+                    <div class="tit"></div>
+                </div>
+            </div>
+            <div class="swiper-slide swiper4">
+                <div class="content once">
+                    <div class="tit" ></div>
+                    <div class="num once animated rubberBand"></div>
+                    <div class="map baseLayer once">
+                        
+                    </div>
+                    <div class="map layers1 once animated fadeIn"></div>
+                    <div class="map layers2 once  animated fadeIn"></div>
+                    <div class="map layers3 once  animated fadeIn"></div>
+                    <div class="map layers4 once  animated fadeIn"></div>
+                    <div class="map layers5 once  animated fadeIn"></div>
+                </div>
+            </div>
+            <div class="swiper-slide swiper5">
+                <div class="content once">
+                    <div class="tit" ></div>
+                    <div class="num once animated rubberBand"></div>
+                    <div class="data once animated zoomIn"></div>
+                    <div class="pic once"></div>
+                </div>
+            </div>
+            <div class="swiper-slide swiper6">
+                <div class="content once">
+                    <div class="tit"></div>
+                    <div class="num once animated rubberBand"></div>
+                    <div class="data">
+                        <div class="rate">200%</div>
+                        <div class="money"></div>
+                        <div class="item item2015 once">
+                        </div>
+                        <div class="item item2016 once"></div>
+                        <div class="item item2017 once"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <audio src="./imgs/bg1.mp3" preload="preload" autoplay loop id="mp3">
+        Your browser does not support the audio tag.
+    </audio>
+    <script src="lib/jquery-1.10.1.min.js"></script>
+    <script src="lib/swiper-3.4.2.jquery.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="https://res.wx.qq.com/open/js/jweixin-1.2.0.js"></script>
+    <script type="text/javascript">
+    document.getElementById('mp3').play();
+    document.addEventListener("WeixinJSBridgeReady", function() {
+        document.getElementById('mp3').play();
+    }, false);
+    var url = encodeURIComponent(window.location.href);
+    $.ajax({
+        type: "post",
+        url: "https://wx.tianqi.cn/Bluepi/getsignature",
+        dataType: "json",
+        data: { url: url },
+        success: function(rs) {
+            wx.config({
+                debug: false,
+                appId: rs.appId,
+                timestamp: rs.timestamp,
+                nonceStr: rs.noncestr,
+                signature: rs.signature,
+                jsApiList: [
+                    'onMenuShareTimeline',
+                    'onMenuShareAppMessage',
+                    'onMenuShareQQ'
+                ]
+            });
+            var share_title = '第34届中国气象学会年会',
+                share_desc = '第34届中国气象学会年会邀您参加',
+                share_img = 'https://blue-pi-upload.tianqi.cn/weatherMeeting/imgs/bg.png',
+                share_link = "https://blue-pi-upload.tianqi.cn/weatherMeeting/";
+
+            wx.ready(function() {
+                var shareData1 = {
+                    title: share_title,
+                    desc: share_desc,
+                    link: share_link,
+                    imgUrl: share_img
+                };
+                var shareData2 = {
+                    title: share_title,
+                    link: share_link,
+                    imgUrl: share_img
+                };
+                // 分享给朋友
+                wx.onMenuShareAppMessage(shareData1);
+                // 分享到朋友圈
+                wx.onMenuShareTimeline(shareData2);
+                //分享到QQ
+                wx.onMenuShareQQ(shareData1);
+            });
+        }
+    });
+    </script>
+</body>
+
+</html>
