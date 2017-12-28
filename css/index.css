@@ -36,13 +36,38 @@ body {
 .swiper-container .swiper-slide {
   overflow: hidden;
 }
+.swiper-container .swiper0 .content {
+  height: 100%;
+}
+.swiper-container .swiper0 .content img:nth-child(1) {
+  width: 5.466667rem;
+  margin-top: 8.8rem;
+  margin-left: 8.69333333334rem;
+}
+.swiper-container .swiper0 .content img:nth-child(3) {
+  width: 8.08rem;
+  margin-top: 1rem;
+  margin-left: 6.08rem;
+}
+.swiper-container .swiper0 .content img:nth-child(4) {
+  width: 0.8rem;
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+}
 .swiper-container .swiper1 .content {
   height: 100%;
-  background: url('../imgs/1/home_bro.png') no-repeat center;
+  background: url('../imgs/1/home_bro.jpg') no-repeat center;
   -moz-background-size: cover;
   -webkit-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+.swiper-container .swiper1 .content img {
+  width: 5.84rem;
+  position: absolute;
+  top: 0.6rem;
+  left: 0.6rem;
 }
 .swiper-container .swiper1 .content .tit {
   position: absolute;
@@ -56,6 +81,318 @@ body {
   -o-background-size: contain;
   background-size: contain;
   animation: wordDown 1s ease;
+}
+.swiper-container .swiper2 .content {
+  height: 100%;
+  position: relative;
+}
+.swiper-container .swiper2 .content .tit {
+  height: 19.36rem;
+  background: url('../imgs/2/zt.jpg') no-repeat center;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+}
+.swiper-container .swiper2 .content .tit .tip {
+  width: 10.426667rem;
+  height: 6.853333rem;
+  position: absolute;
+  top: -1rem;
+  right: 0;
+  background: url('../imgs/2/biaozhu.png') no-repeat center;
+  -moz-background-size: contain;
+  -webkit-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+}
+.swiper-container .swiper2 .content .tit .qq {
+  width: 1.226667rem;
+  height: 1.333333rem;
+  background: url('../imgs/2/QQ.png') no-repeat center;
+  -moz-background-size: contain;
+  -webkit-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  position: absolute;
+  top: 11.5rem;
+  right: 0.5rem;
+}
+.swiper-container .swiper2 .content .tit .qqdi {
+  width: 1.12rem;
+  height: 1.253333rem;
+  background: url('../imgs/2/wenzi.png') no-repeat center;
+  position: absolute;
+  -moz-background-size: contain;
+  -webkit-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+}
+.swiper-container .swiper2 .content .tit .qqdi1 {
+  top: 10rem;
+  right: 1rem;
+  animation: qqdi1 1.5s linear infinite;
+}
+.swiper-container .swiper2 .content .tit .qqdi2 {
+  top: 8.8rem;
+  right: 0.5rem;
+  animation: qqdi2 1.5s linear infinite;
+}
+.swiper-container .swiper2 .content .tit .qqdi3 {
+  top: 7.6rem;
+  right: 0.98rem;
+  animation: qqdi3 1.5s linear infinite;
+}
+.swiper-container .swiper2 .content .tit .zz_l {
+  position: absolute;
+  top: 11.5rem;
+  left: 0.5rem;
+  height: 1.333333rem;
+  width: 0.8rem;
+}
+.swiper-container .swiper2 .content .tit .zz_l img:nth-child(1) {
+  margin-left: -0.3rem;
+  margin-bottom: -0.5rem;
+  width: 0.586667rem;
+  animation: zz1 2s linear infinite;
+}
+.swiper-container .swiper2 .content .tit .zz_l img:nth-child(2) {
+  width: 0.453333rem;
+  animation: zz2 2s linear infinite;
+}
+.swiper-container .swiper2 .content .tit .zz_r {
+  position: absolute;
+  top: 11rem;
+  left: 3.2rem;
+  height: 1.333333rem;
+  width: 0.8rem;
+}
+.swiper-container .swiper2 .content .tit .zz_r img:nth-child(1) {
+  margin-left: 0.2rem;
+  margin-bottom: -0.5rem;
+  width: 0.586667rem;
+  animation: zz1 1.8s linear infinite;
+}
+.swiper-container .swiper2 .content .tit .zz_r img:nth-child(2) {
+  width: 0.453333rem;
+  animation: zz2 1.8s linear infinite;
+}
+.swiper-container .swiper2 .content .tit .time {
+  width: 2.933333rem;
+  height: 2.933333rem;
+  position: absolute;
+  top: 0.4rem;
+  left: 0.96rem;
+}
+.swiper-container .swiper2 .content .bottom {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 12.6rem;
+  -webkit-animation-delay: 8s;
+}
+.swiper-container .swiper2 .content .bottom .qq {
+  width: 3.733333rem;
+  position: absolute;
+  top: 3.146667rem;
+}
+.swiper-container .swiper2 .content .bottom .qqyq {
+  width: 2.266667rem;
+  position: absolute;
+  top: 3.5rem;
+  left: -0.04rem;
+  -webkit-animation-duration: 3s;
+}
+.swiper-container .swiper2 .content .bottom .dialog img {
+  position: absolute;
+}
+.swiper-container .swiper2 .content .bottom .dialog .d1 {
+  width: 10.266667rem;
+  top: 0.8rem;
+  left: 2.666667rem;
+  -webkit-animation-delay: 1s;
+}
+.swiper-container .swiper2 .content .bottom .dialog .d2 {
+  width: 12.426667rem;
+  top: 2.693333rem;
+  left: 2.667rem;
+  -webkit-animation-delay: 2s;
+}
+.swiper-container .swiper2 .content .bottom .dialog .d3 {
+  width: 15.2rem;
+  top: 4.16rem;
+  left: 4.106667rem;
+  -webkit-animation-delay: 3s;
+}
+.swiper-container .swiper2 .content .bottom .dialog .d3 {
+  width: 15.2rem;
+  top: 4.16rem;
+  left: 4.106667rem;
+  -webkit-animation-delay: 4s;
+}
+.swiper-container .swiper2 .content .bottom .dialog .d4 {
+  width: 13.146667rem;
+  top: 5.76rem;
+  left: 4.4rem;
+  -webkit-animation-delay: 5s;
+}
+.swiper-container .swiper2 .content .bottom .dialog .d5 {
+  width: 13.146667rem;
+  top: 6.933333rem;
+  left: 1.146667rem;
+  -webkit-animation-delay: 6s;
+}
+.swiper-container .swiper2 .content .bottom .dialog .d6 {
+  width: 17.52rem;
+  top: 9.92rem;
+  left: 1.733333rem;
+  -webkit-animation-delay: 7s;
+}
+.swiper-container .swiper2 .content .bottom2 {
+  position: absolute;
+  top: 24rem;
+  left: 1.973333rem;
+}
+.swiper-container .swiper2 .content .bottom2 .dialog {
+  width: 10.4rem;
+  -webkit-animation-delay: 8s;
+}
+.swiper-container .swiper2 .content .bottom2 .tx {
+  width: 5.12rem;
+  -webkit-animation-delay: 8s;
+}
+.swiper-container .swiper3 .content {
+  height: 100%;
+}
+.swiper-container .swiper3 .content .time {
+  overflow: hidden;
+}
+.swiper-container .swiper3 .content .time .biao {
+  width: 2.933333rem;
+  height: 2.933333rem;
+  background: url('../imgs/3/表盘.png') no-repeat center;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  margin: 0 auto;
+  margin-top: 1.253333rem;
+  position: relative;
+}
+.swiper-container .swiper3 .content .time .biao img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+.swiper-container .swiper3 .content .time .biao .hour {
+  -webkit-transform-origin: 0.08rem 0;
+  -webkit-transform: translateX(-50%) rotate(60deg);
+  height: 0.613333rem;
+  animation: rotate_time 6s linear infinite;
+}
+.swiper-container .swiper3 .content .time .biao .minute {
+  -webkit-transform-origin: 0.053333rem 0;
+  transform: translateX(-50%) rotate(180deg);
+  height: 0.8rem;
+  animation: rotate_time 0.5s linear infinite;
+}
+.swiper-container .swiper3 .content .time p {
+  text-align: center;
+  padding-top: 0.5rem;
+  font-size: 2rem;
+  font-style: italic;
+  color: #222;
+}
+.swiper-container .swiper3 .content .circlce {
+  width: 20.0rem;
+  height: 23.466667rem;
+  background: url('../imgs/3/背景圈.png') no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-top: 1.6rem;
+  position: relative;
+}
+.swiper-container .swiper3 .content .circlce .sun {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: rotate(0deg);
+  animation: sun 6s linear infinite;
+}
+.swiper-container .swiper3 .content .circlce .sun img {
+  width: 2.666667rem;
+  margin-top: 2.6rem;
+}
+.swiper-container .swiper3 .content .circlce .night {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: rotate(120deg);
+  animation: night 6s linear infinite;
+}
+.swiper-container .swiper3 .content .circlce .night img {
+  width: 2.666667rem;
+  margin-top: 2.6rem;
+}
+.swiper-container .swiper3 .content .circlce .container {
+  width: 17.6rem;
+  height: 8.8rem;
+  background: #ddba84;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+}
+.swiper-container .swiper3 .content .circlce .container div {
+  width: 8.8rem;
+  height: 8.8rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  float: right;
+}
+.swiper-container .swiper3 .content .circlce .container .many {
+  background-image: url('../imgs/3/多人.jpg');
+  animation: onetomany 4s linear;
+  text-align: center;
+  position: relative;
+}
+.swiper-container .swiper3 .content .circlce .container .many img {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.swiper-container .swiper3 .content .circlce .container .many img:nth-child(1) {
+  width: 5.173333rem;
+  animation: updis1 1s linear infinite;
+}
+.swiper-container .swiper3 .content .circlce .container .many img:nth-child(2) {
+  width: 3.306667rem;
+  animation: updis2 1s linear 0.5s infinite;
+}
+.swiper-container .swiper3 .content .circlce .container .bug {
+  animation: bug 4s linear infinite;
+}
+.swiper-container .swiper3 .content .circlce .container .wenzi {
+  width: 16.906667rem;
+  animation-delay: 1.5s;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 .swiper-container .swiper4 .content {
   height: 100%;
@@ -176,7 +513,7 @@ body {
 .swiper-container .swiper6 .content .num {
   height: 4.0rem;
   margin-top: 0.8rem;
-  background: url('../imgs/6/文字.png') no-repeat center;
+  background: url('../imgs/6/文字1.png') no-repeat center;
   -moz-background-size: contain;
   -webkit-background-size: contain;
   -o-background-size: contain;
@@ -196,15 +533,10 @@ body {
   padding-left: 1.333333rem;
 }
 .swiper-container .swiper6 .content .data .rate {
+  width: 3.8rem;
   position: absolute;
-  top: 3.4rem;
-  right: 5.6rem;
-  width: 4.0rem;
-  height: 1.173333rem;
-  color: #bf8b54;
-  font-size: 1.5rem;
-  font-weight: 700;
-  font-style: italic;
+  top: 0rem;
+  left: 12.6rem;
 }
 .swiper-container .swiper6 .content .data .money {
   width: 100%;
@@ -222,7 +554,7 @@ body {
 }
 .swiper-container .swiper6 .content .data .money::before {
   content: '¥6269480.99';
-  animation: money 1s linear;
+  -webkit-animation: money 1s linear;
 }
 .swiper-container .swiper6 .content .data .item {
   height: 12.8rem;
@@ -245,26 +577,26 @@ body {
 }
 .swiper-container .swiper6 .content .data .item2015 {
   background: url('../imgs/6/2015.png') no-repeat center bottom;
-  -moz-background-size: contain;
-  -webkit-background-size: contain;
-  -o-background-size: contain;
-  background-size: contain;
+  -moz-background-size: 4.2rem 3rem;
+  -webkit-background-size: 4.2rem 3rem;
+  -o-background-size: 4.2rem 3rem;
+  background-size: 4.2rem 3rem;
   animation: year2015 0.5s linear;
 }
 .swiper-container .swiper6 .content .data .item2016 {
   background: url('../imgs/6/2016.png') no-repeat center bottom;
-  -moz-background-size: contain;
-  -webkit-background-size: contain;
-  -o-background-size: contain;
-  background-size: contain;
+  -moz-background-size: 4.2rem 5rem;
+  -webkit-background-size: 4.2rem 5rem;
+  -o-background-size: 4.2rem 5rem;
+  background-size: 4.2rem 5rem;
   animation: year2016 0.8s linear;
 }
 .swiper-container .swiper6 .content .data .item2017 {
   background: url('../imgs/6/2017.png') no-repeat center bottom;
-  -moz-background-size: contain;
-  -webkit-background-size: contain;
-  -o-background-size: contain;
-  background-size: contain;
+  -moz-background-size: 4.2rem 11.6rem;
+  -webkit-background-size: 4.2rem 11.6rem;
+  -o-background-size: 4.2rem 11.6rem;
+  background-size: 4.2rem 11.6rem;
   animation: year2017 1.0s linear;
 }
 .swiper-container .swiper6 .content .data .item2015::before {
@@ -275,6 +607,270 @@ body {
 }
 .swiper-container .swiper6 .content .data .item2017::before {
   content: '2017';
+}
+.swiper-container .swiper7 .content {
+  height: 100%;
+}
+.swiper-container .swiper7 .content .percent {
+  width: 8.853333rem;
+  height: 8.8rem;
+  margin-top: 5rem;
+  margin-left: 5.333333rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  animation: changepic 4s 1s linear both;
+}
+.swiper-container .swiper7 .content .but {
+  width: 1.546667rem;
+  height: 4.106667rem;
+  margin: 1.866667rem auto;
+  background: url('../imgs/7/but.png') no-repeat center;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  animation-delay: 5s;
+}
+.swiper-container .swiper7 .content .wenzi {
+  width: 11.946667rem;
+  height: 6.026667rem;
+  margin: 0 auto;
+  background: url('../imgs/7/wenzi.png') no-repeat center;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  animation-delay: 6s;
+}
+.swiper-container .swiper8 .content {
+  height: 100%;
+  background: url('../imgs/8/bro.png') no-repeat center;
+}
+.swiper-container .swiper8 .content .happy {
+  width: 11.413333rem;
+  margin-left: 4.266667rem;
+  margin-top: 4.08rem;
+}
+.swiper-container .swiper8 .content .dog {
+  width: 15.84rem;
+  height: 8.72rem;
+  margin: 2.666667rem auto;
+  background: url('../imgs/8/底.png') no-repeat center;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+}
+.swiper-container .swiper8 .content .dog img {
+  width: 100%;
+  animation-duration: 1.5s;
+  animation-delay: 1s;
+}
+.swiper-container .swiper8 .content .bb {
+  position: absolute;
+  bottom: 2rem;
+  width: 100%;
+  text-align: center;
+}
+.swiper-container .swiper8 .content .bb .end {
+  width: 4.773333rem;
+}
+.swiper-container .swiper8 .content .bmore {
+  width: 4.48rem;
+  position: absolute;
+  bottom: 1.8rem;
+  right: 2rem;
+}
+@keyframes updis1 {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+    transform: translateY(-2rem);
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes updis2 {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+    transform: translateY(-2rem);
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes onetomany {
+  0% {
+    background-image: url('../imgs/3/一人png.png');
+  }
+  50% {
+    background-image: url('../imgs/3/一人png.png');
+  }
+  100% {
+    background-image: url('../imgs/3/多人.jpg');
+  }
+}
+@keyframes bug {
+  0% {
+    background-image: url('../imgs/3/方案1.png');
+  }
+  10% {
+    background-image: url('../imgs/3/方案2.png');
+  }
+  20% {
+    background-image: url('../imgs/3/方案3.png');
+  }
+  30% {
+    background-image: url('../imgs/3/改需求1.png');
+  }
+  40% {
+    background-image: url('../imgs/3/功能1.png');
+  }
+  50% {
+    background-image: url('../imgs/3/功能2.png');
+  }
+  60% {
+    background-image: url('../imgs/3/功能3.png');
+  }
+  70% {
+    background-image: url('../imgs/3/需求1.png');
+  }
+  80% {
+    background-image: url('../imgs/3/需求2.png');
+  }
+  90% {
+    background-image: url('../imgs/3/需求3.png');
+  }
+  100% {
+    background-image: url('../imgs/3/方案1.png');
+  }
+}
+@keyframes changepic {
+  0% {
+    background-image: url('../imgs/7/0.png');
+  }
+  20% {
+    background-image: url('../imgs/7/1.png');
+  }
+  40% {
+    background-image: url('../imgs/7/2.png');
+  }
+  60% {
+    background-image: url('../imgs/7/3.png');
+  }
+  80% {
+    background-image: url('../imgs/7/4.png');
+  }
+  100% {
+    background-image: url('../imgs/7/5.png');
+  }
+}
+@keyframes sun {
+  0% {
+    -webkit-transform: rotate(-30deg);
+  }
+  50% {
+    -webkit-transform: rotate(120deg);
+  }
+  100% {
+    -webkit-transform: rotate(120deg);
+  }
+}
+@keyframes night {
+  0% {
+    -webkit-transform: rotate(120deg);
+  }
+  50% {
+    -webkit-transform: rotate(120deg);
+  }
+  100% {
+    -webkit-transform: rotate(320deg);
+  }
+}
+@keyframes rotate_time {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes zz1 {
+  0% {
+    opacity: 0;
+  }
+  33% {
+    opacity: 1;
+  }
+  66% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes zz2 {
+  0% {
+    opacity: 0;
+  }
+  33% {
+    opacity: 0;
+  }
+  66% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes qqdi1 {
+  0% {
+    opacity: 0;
+  }
+  33% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes qqdi2 {
+  0% {
+    opacity: 0.5;
+  }
+  33% {
+    opacity: 0;
+  }
+  66% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+@keyframes qqdi3 {
+  0% {
+    opacity: 0.5;
+  }
+  33% {
+    opacity: 0;
+  }
+  66% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 @keyframes money {
   0% {
@@ -346,16 +942,16 @@ body {
     background-size: 4.2rem 0rem;
   }
   50% {
-    -moz-background-size: 4.2rem 2rem;
-    -webkit-background-size: 4.2rem 2rem;
-    -o-background-size: 4.2rem 2rem;
-    background-size: 4.2rem 2rem;
+    -moz-background-size: 4.2rem 1.5rem;
+    -webkit-background-size: 4.2rem 1.5rem;
+    -o-background-size: 4.2rem 1.5rem;
+    background-size: 4.2rem 1.5rem;
   }
   100% {
-    -moz-background-size: 4.2rem 4rem;
-    -webkit-background-size: 4.2rem 4rem;
-    -o-background-size: 4.2rem 4rem;
-    background-size: 4.2rem 4rem;
+    -moz-background-size: 4.2rem 3rem;
+    -webkit-background-size: 4.2rem 3rem;
+    -o-background-size: 4.2rem 3rem;
+    background-size: 4.2rem 3rem;
   }
 }
 @keyframes year2016 {
@@ -366,16 +962,16 @@ body {
     background-size: 4.2rem 0rem;
   }
   50% {
-    -moz-background-size: 4.2rem 3rem;
-    -webkit-background-size: 4.2rem 3rem;
-    -o-background-size: 4.2rem 3rem;
-    background-size: 4.2rem 3rem;
+    -moz-background-size: 4.2rem 2.5rem;
+    -webkit-background-size: 4.2rem 2.5rem;
+    -o-background-size: 4.2rem 2.5rem;
+    background-size: 4.2rem 2.5rem;
   }
   100% {
-    -moz-background-size: 4.2rem 5.6rem;
-    -webkit-background-size: 4.2rem 5.6rem;
-    -o-background-size: 4.2rem 5.6rem;
-    background-size: 4.2rem 5.6rem;
+    -moz-background-size: 4.2rem 5rem;
+    -webkit-background-size: 4.2rem 5rem;
+    -o-background-size: 4.2rem 5rem;
+    background-size: 4.2rem 5rem;
   }
 }
 @keyframes year2017 {
